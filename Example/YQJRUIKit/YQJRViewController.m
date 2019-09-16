@@ -7,6 +7,7 @@
 //
 
 #import "YQJRViewController.h"
+#import <YQJRUIKit/UIColor+YQJRCategory.h>
 
 @interface YQJRViewController ()
 
@@ -14,16 +15,8 @@
 
 @implementation YQJRViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    self.view.backgroundColor = [UIColor yqjr_colorWithHexString:@"ff7700"];
 }
 
 @end

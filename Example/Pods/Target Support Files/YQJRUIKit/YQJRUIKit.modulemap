@@ -1,0 +1,6 @@
+framework module YQJRUIKit {
+  umbrella header "YQJRUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
