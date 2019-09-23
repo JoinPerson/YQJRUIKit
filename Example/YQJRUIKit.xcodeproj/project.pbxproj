@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3687ECDE1381D15D82A275B5 /* libPods-YQJRUIKit_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5510329E2406432418BE7BAE /* libPods-YQJRUIKit_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6951B2F5A60FD657D4B896E6 /* Pods_YQJRUIKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DDB1B40B738914A3CF2F71 /* Pods_YQJRUIKit_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C812D06892B5948084FF63D2 /* Pods_YQJRUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE62CE756B7E5F15ADC77E1C /* Pods_YQJRUIKit_Tests.framework */; };
+		F00261B6B9FCAF873B8F2FA3 /* libPods-YQJRUIKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 195C0CE9E62EEC8730954ADB /* libPods-YQJRUIKit_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03DDB1B40B738914A3CF2F71 /* Pods_YQJRUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQJRUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FC030B2E8CA72464C8926A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		195C0CE9E62EEC8730954ADB /* libPods-YQJRUIKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQJRUIKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D79D81ED07B4ED209DC7A4 /* YQJRUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YQJRUIKit.podspec; path = ../YQJRUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		43477A239A0DDCEE99662CCE /* Pods-YQJRUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQJRUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-YQJRUIKit_Example/Pods-YQJRUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5510329E2406432418BE7BAE /* libPods-YQJRUIKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQJRUIKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YQJRUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQJRUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +66,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F148D805F021EC9D73489C8 /* Pods-YQJRUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQJRUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-YQJRUIKit_Tests/Pods-YQJRUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA6C469E782EC23DF3298816 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DE62CE756B7E5F15ADC77E1C /* Pods_YQJRUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQJRUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F77BFA924DA595BA39BA8511 /* Pods-YQJRUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQJRUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YQJRUIKit_Tests/Pods-YQJRUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6951B2F5A60FD657D4B896E6 /* Pods_YQJRUIKit_Example.framework in Frameworks */,
+				3687ECDE1381D15D82A275B5 /* libPods-YQJRUIKit_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C812D06892B5948084FF63D2 /* Pods_YQJRUIKit_Tests.framework in Frameworks */,
+				F00261B6B9FCAF873B8F2FA3 /* libPods-YQJRUIKit_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				03DDB1B40B738914A3CF2F71 /* Pods_YQJRUIKit_Example.framework */,
-				DE62CE756B7E5F15ADC77E1C /* Pods_YQJRUIKit_Tests.framework */,
+				5510329E2406432418BE7BAE /* libPods-YQJRUIKit_Example.a */,
+				195C0CE9E62EEC8730954ADB /* libPods-YQJRUIKit_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				A85262F5260E0C3E668DA8DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,24 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A85262F5260E0C3E668DA8DA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YQJRUIKit_Example/Pods-YQJRUIKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YQJRUIKit/YQJRUIKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YQJRUIKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YQJRUIKit_Example/Pods-YQJRUIKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F57E7074677AE6F0A8B8218F /* [CP] Check Pods Manifest.lock */ = {

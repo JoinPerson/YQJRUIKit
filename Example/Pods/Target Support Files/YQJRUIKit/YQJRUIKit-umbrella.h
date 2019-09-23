@@ -10,8 +10,11 @@
 #endif
 #endif
 
+#import "UIActivityIndicatorView+YQJRCategory.h"
 #import "UIColor+YQJRCategory.h"
+#import "UIImage+YQJRCategory.h"
 #import "UIView+YQJRCategory.h"
+#import "YQJRUIKit.h"
 
 FOUNDATION_EXPORT double YQJRUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char YQJRUIKitVersionString[];
