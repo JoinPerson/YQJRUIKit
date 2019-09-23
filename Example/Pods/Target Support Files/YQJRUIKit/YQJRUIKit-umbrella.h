@@ -11,6 +11,7 @@
 #endif
 
 #import "UIColor+YQJRCategory.h"
+#import "UIView+YQJRCategory.h"
 
 FOUNDATION_EXPORT double YQJRUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char YQJRUIKitVersionString[];

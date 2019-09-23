@@ -8,6 +8,7 @@
 
 #import "YQJRViewController.h"
 #import <YQJRUIKit/UIColor+YQJRCategory.h>
+#import <YQJRUIKit/UIView+YQJRCategory.h>
 
 @interface YQJRViewController ()
 
@@ -16,7 +17,8 @@
 @implementation YQJRViewController
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    self.view.backgroundColor = [UIColor yqjr_colorWithHexString:@"ff7700"];
+//    self.view.backgroundColor = [UIColor yqjr_colorWithHexString:@"ff7700"];
+    [self.view yqjr_showTextTipsWithString:@"成功"];
 }
 
 @end
