@@ -44,29 +44,29 @@
 		184916E31652AEDA8FF9A29195710B33 /* YQJRUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQJRUIKit-prefix.pch"; sourceTree = "<group>"; };
 		263336596094C11D8709AE2C2694C267 /* Pods-YQJRUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQJRUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F417DF488C21F350DB090F691E299EC /* Pods-YQJRUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQJRUIKit_Example-dummy.m"; sourceTree = "<group>"; };
-		30BE7D5F8DBE4706A7BE86A2D9642DB6 /* YQJRUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YQJRUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30BE7D5F8DBE4706A7BE86A2D9642DB6 /* YQJRUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YQJRUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		33782ECBEB5D9D697DBCB708FECFEA02 /* YQJRUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YQJRUIKit.h; path = YQJRUIKit/Classes/YQJRUIKit.h; sourceTree = "<group>"; };
 		37FF617CC9037511B6E28F0CE5D17431 /* Pods-YQJRUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQJRUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		39960DF04F69D4B7C682A8B026042D1F /* UIActivityIndicatorView+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+YQJRCategory.h"; path = "YQJRUIKit/Classes/UIActivityIndicatorView+YQJRCategory.h"; sourceTree = "<group>"; };
-		3A89F4F28362C4964F8B491E25C78482 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3EE5F5BE4BFF675EBC8F22EA3CD3EE04 /* libYQJRUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYQJRUIKit.a; path = libYQJRUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A89F4F28362C4964F8B491E25C78482 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3EE5F5BE4BFF675EBC8F22EA3CD3EE04 /* libYQJRUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYQJRUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D00AB9D06D2F49D53B615852020C25 /* UIView+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YQJRCategory.m"; path = "YQJRUIKit/Classes/UIView+YQJRCategory.m"; sourceTree = "<group>"; };
 		491CB59DB20842B54024D69FDC108D0B /* Pods-YQJRUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		493A74FBFE71E8CE560A91D678D79CFF /* UIColor+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YQJRCategory.h"; path = "YQJRUIKit/Classes/UIColor+YQJRCategory.h"; sourceTree = "<group>"; };
 		55D7B74B08B8C536F51A9F29B7C49778 /* Pods-YQJRUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5EED72D32640051A90E4D7E093CDC199 /* Pods-YQJRUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQJRUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		664923BBCF90ACDA29F8FBDF609B019E /* Pods-YQJRUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		72285EB9A7CA6DDB94B16BF790D3588B /* libPods-YQJRUIKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YQJRUIKit_Tests.a"; path = "libPods-YQJRUIKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72285EB9A7CA6DDB94B16BF790D3588B /* libPods-YQJRUIKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQJRUIKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B20CCE550627E40064CC0346FC276BE /* UIImage+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YQJRCategory.h"; path = "YQJRUIKit/Classes/UIImage+YQJRCategory.h"; sourceTree = "<group>"; };
 		83CA30C6B551B527C2FF94A1A3E16762 /* UIActivityIndicatorView+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+YQJRCategory.m"; path = "YQJRUIKit/Classes/UIActivityIndicatorView+YQJRCategory.m"; sourceTree = "<group>"; };
 		88ED4A84097A7A8C461A0106FCF63B79 /* Pods-YQJRUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQJRUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CA54CD758F36D06CBD96DE4973947EF /* YQJRUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQJRUIKit-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3AE8A2EF9F2C936593897AF0A2D9619 /* YQJRUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQJRUIKit.xcconfig; sourceTree = "<group>"; };
-		D79788F3AD095455A8BE3C4F7DC8A922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D79788F3AD095455A8BE3C4F7DC8A922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D9813BF70138C9480D0236D7B0D1C421 /* UIColor+YQJRCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YQJRCategory.m"; path = "YQJRUIKit/Classes/UIColor+YQJRCategory.m"; sourceTree = "<group>"; };
 		DE7236D7D4BB40BE5A2DC4C8760F8C2D /* Pods-YQJRUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQJRUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E6688C4E7A634131E108C0B56782BEEA /* libPods-YQJRUIKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YQJRUIKit_Example.a"; path = "libPods-YQJRUIKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6688C4E7A634131E108C0B56782BEEA /* libPods-YQJRUIKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQJRUIKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB878B0964B7A019A4080F2AE504FBD /* UIView+YQJRCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YQJRCategory.h"; path = "YQJRUIKit/Classes/UIView+YQJRCategory.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -306,6 +306,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = F9A9B8BBFFAFCFD32F99C39E9DC6E26F /* Products */;
@@ -441,8 +442,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

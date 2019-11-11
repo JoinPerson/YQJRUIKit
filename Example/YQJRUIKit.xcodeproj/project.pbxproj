@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D71431A4237910C5003FEF3B /* YQJRCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D71431A3237910C5003FEF3B /* YQJRCustomViewController.m */; };
 		F00261B6B9FCAF873B8F2FA3 /* libPods-YQJRUIKit_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 195C0CE9E62EEC8730954ADB /* libPods-YQJRUIKit_Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F148D805F021EC9D73489C8 /* Pods-YQJRUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQJRUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-YQJRUIKit_Tests/Pods-YQJRUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA6C469E782EC23DF3298816 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D71431A2237910C5003FEF3B /* YQJRCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQJRCustomViewController.h; sourceTree = "<group>"; };
+		D71431A3237910C5003FEF3B /* YQJRCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQJRCustomViewController.m; sourceTree = "<group>"; };
 		F77BFA924DA595BA39BA8511 /* Pods-YQJRUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQJRUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YQJRUIKit_Tests/Pods-YQJRUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YQJRViewController.h */,
 				6003F5A6195388D20070C39A /* YQJRViewController.m */,
+				D71431A2237910C5003FEF3B /* YQJRCustomViewController.h */,
+				D71431A3237910C5003FEF3B /* YQJRCustomViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -256,10 +261,9 @@
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "YQJRUIKit" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -349,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YQJRAppDelegate.m in Sources */,
+				D71431A4237910C5003FEF3B /* YQJRCustomViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* YQJRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
