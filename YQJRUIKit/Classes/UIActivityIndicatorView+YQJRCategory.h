@@ -17,6 +17,13 @@
 + (void)yqjr_loadingWithSuperview:(UIView *)superview;
 
 /**
+用于网络请求时的loading(黑色转圈)
+
+@param superview 父视图
+*/
++ (void)yqjr_loadingWithSuperview1:(UIView *)superview;
+
+/**
  用于网络请求时的loading
  
  @param superview 父视图

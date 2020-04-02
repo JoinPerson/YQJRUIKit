@@ -15,6 +15,10 @@ static NSMapTable *mapTableForUIActivityIndicatorViewYQJRCategory = nil;
     [self yqjr_loadingWithSuperview:superview indicatorStyle:UIActivityIndicatorViewStyleWhite indicatorColor:nil maskViewColor:[UIColor clearColor] offsetCenterY:0];
 }
 
++ (void)yqjr_loadingWithSuperview1:(UIView *)superview {
+    [self yqjr_loadingWithSuperview:superview indicatorStyle:UIActivityIndicatorViewStyleWhite indicatorColor:[UIColor blackColor] maskViewColor:[UIColor clearColor] offsetCenterY:0];
+}
+
 + (void)yqjr_loadingWithSuperview:(UIView *)superview
                    indicatorStyle:(UIActivityIndicatorViewStyle)indicatorStyle
                     maskViewColor:(UIColor *)maskViewColor
