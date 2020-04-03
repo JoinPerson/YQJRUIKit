@@ -72,6 +72,43 @@ static NSMapTable *mapTableForUIViewYQJRCategory = nil;
     return self.frame.size;
 }
 
+- (void)setYqjr_centerX:(CGFloat)yqjr_centerX {
+    CGPoint center = self.center;
+    center.x = yqjr_centerX;
+    self.center = center;
+}
+
+- (CGFloat)yqjr_centerX {
+    return self.center.x;
+}
+
+- (void)setYqjr_centerY:(CGFloat)yqjr_centerY {
+    CGPoint center = self.center;
+    center.y = yqjr_centerY;
+    self.center = center;
+}
+
+- (CGFloat)yqjr_centerY {
+    return self.center.y;
+}
+
+- (void)setYqjr_cornerRadius:(CGFloat)yqjr_cornerRadius {
+    self.layer.cornerRadius = yqjr_cornerRadius;
+    self.layer.masksToBounds = yqjr_cornerRadius > 0;
+}
+
+- (CGFloat)yqjr_cornerRadius {
+    return self.layer.cornerRadius;
+}
+
+- (void)setYqjr_borderColor:(UIColor *)yqjr_borderColor {
+    self.layer.borderColor = yqjr_borderColor.CGColor;
+}
+
+- (UIColor *)yqjr_borderColor {
+    return [UIColor colorWithCGColor:self.layer.borderColor];
+}
+
 - (void)yqjr_showTextTipsWithString:(NSString *)string {
     if (mapTableForUIViewYQJRCategory == nil) {
         mapTableForUIViewYQJRCategory = [NSMapTable weakToWeakObjectsMapTable];

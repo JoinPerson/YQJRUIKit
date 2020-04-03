@@ -15,6 +15,11 @@
 @property(nonatomic, assign)CGFloat yqjr_height;
 @property(nonatomic, assign)CGPoint yqjr_origin;
 @property(nonatomic, assign)CGSize yqjr_size;
+@property(nonatomic, assign)CGFloat yqjr_centerX;
+@property(nonatomic, assign)CGFloat yqjr_centerY;
+
+@property(nonatomic, assign)CGFloat yqjr_cornerRadius;
+@property(nonatomic, strong)UIColor *yqjr_borderColor;
 
 /**
  显示文本提示(简单的tips提示，默认2秒后消失)
