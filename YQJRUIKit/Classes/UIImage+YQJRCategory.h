@@ -21,4 +21,6 @@
                            width:(CGFloat)width
                           height:(CGFloat)height;
 
++ (UIImage *)yqjr_getImageFromView:(UIView *)view;
+
 @end

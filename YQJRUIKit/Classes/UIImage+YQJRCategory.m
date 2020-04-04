@@ -33,4 +33,15 @@
     return image;
 }
 
++ (UIImage *)yqjr_getImageFromView:(UIView *)view {
+    if (![view isKindOfClass:UIView.class]) {
+        return nil;
+    }
+    UIGraphicsBeginImageContextWithOptions(view.bounds.size, NO, 0.0);
+    [view.layer renderInContext:UIGraphicsGetCurrentContext()];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
 @end
