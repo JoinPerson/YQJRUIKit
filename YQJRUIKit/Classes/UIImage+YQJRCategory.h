@@ -23,4 +23,8 @@
 
 + (UIImage *)yqjr_getImageFromView:(UIView *)view;
 
++ (UIImage *)yqjr_normalizedImage:(UIImage *)image;
+
++ (UIImage *)yqjr_fixOrientationImage:(UIImage *)image;
+
 @end
