@@ -28,4 +28,10 @@
  */
 - (void)yqjr_showTextTipsWithString:(NSString *)string;
 
+/// 显示文本提示(简单的tips提示，默认2秒后消失)
+/// @param string 要显示的文本
+/// @param complete tips提示消失后的回调
+- (void)yqjr_showTextTipsWithString:(NSString *)string
+                           complete:(void(^)(void))complete;
+
 @end

@@ -110,6 +110,10 @@ static NSMapTable *mapTableForUIViewYQJRCategory = nil;
 }
 
 - (void)yqjr_showTextTipsWithString:(NSString *)string {
+    [self yqjr_showTextTipsWithString:string complete:nil];
+}
+
+- (void)yqjr_showTextTipsWithString:(NSString *)string complete:(void (^)(void))complete {
     if (mapTableForUIViewYQJRCategory == nil) {
         mapTableForUIViewYQJRCategory = [NSMapTable weakToWeakObjectsMapTable];
     }
@@ -160,6 +164,9 @@ static NSMapTable *mapTableForUIViewYQJRCategory = nil;
     __weak typeof(backgroundView) weakBackgroundView = backgroundView;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [weakBackgroundView removeFromSuperview];
+        if (complete) {
+            complete();
+        }
     });
 }
 
