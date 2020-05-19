@@ -21,10 +21,16 @@
                            width:(CGFloat)width
                           height:(CGFloat)height;
 
+/// 根据当前传入的视图用视图上的内容生成一张图片返回
+/// @param view 传入的视图
 + (UIImage *)yqjr_getImageFromView:(UIView *)view;
 
+/// 根据当前传入的图片生成一张方向正常的图片
+/// @param image 传入的图片参数
 + (UIImage *)yqjr_normalizedImage:(UIImage *)image;
 
+/// 根据当前传入的图片生成一张方向正常的图片
+/// @param image 传入的图片参数
 + (UIImage *)yqjr_fixOrientationImage:(UIImage *)image;
 
 @end

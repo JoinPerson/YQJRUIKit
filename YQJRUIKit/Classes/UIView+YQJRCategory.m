@@ -92,23 +92,6 @@ static NSMapTable *mapTableForUIViewYQJRCategory = nil;
     return self.center.y;
 }
 
-- (void)setYqjr_cornerRadius:(CGFloat)yqjr_cornerRadius {
-    self.layer.cornerRadius = yqjr_cornerRadius;
-    self.layer.masksToBounds = yqjr_cornerRadius > 0;
-}
-
-- (CGFloat)yqjr_cornerRadius {
-    return self.layer.cornerRadius;
-}
-
-- (void)setYqjr_borderColor:(UIColor *)yqjr_borderColor {
-    self.layer.borderColor = yqjr_borderColor.CGColor;
-}
-
-- (UIColor *)yqjr_borderColor {
-    return [UIColor colorWithCGColor:self.layer.borderColor];
-}
-
 - (void)yqjr_showTextTipsWithString:(NSString *)string {
     [self yqjr_showTextTipsWithString:string complete:nil];
 }
