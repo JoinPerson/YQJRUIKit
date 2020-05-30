@@ -12,5 +12,6 @@
 #import "UIColor+YQJRCategory.h"
 #import "UIImage+YQJRCategory.h"
 #import "UIView+YQJRCategory.h"
+#import "WKWebView+YQJRCategory.h"
 
 #endif /* YQJRUIKit_h */
