@@ -9,6 +9,7 @@
 #define YQJRUIKit_h
 
 #import "UIActivityIndicatorView+YQJRCategory.h"
+#import "UIApplication+YQJRCategory.h"
 #import "UIColor+YQJRCategory.h"
 #import "UIImage+YQJRCategory.h"
 #import "UIView+YQJRCategory.h"
