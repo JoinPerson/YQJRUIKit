@@ -1,5 +1,5 @@
 PODS:
-  - YQJRUIKit (0.0.7)
+  - YQJRUIKit (0.0.8)
 
 DEPENDENCIES:
   - YQJRUIKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YQJRUIKit: 0aee5919c4ed85c749b020060ce29ca83e6e8def
+  YQJRUIKit: 6595f01bb169a04314b51017c5b8577ffb0f914b
 
 PODFILE CHECKSUM: a1d33c2ddd5faa1e010b2d2517e4ee76f0ecbdc3
 
