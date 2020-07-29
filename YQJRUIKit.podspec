@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'YQJRUIKit'
-    s.version      = '0.0.9'
+    s.version      = '0.0.10'
     s.summary      = '类似于iOS系统的UIKit库'
     s.homepage     = 'https://github.com/JoinPerson/YQJRUIKit'
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
